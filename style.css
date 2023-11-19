@@ -1,0 +1,240 @@
+h1{
+    font-family: 'Rubik Dirt', cursive;
+}
+
+
+.fondo{
+    background: url("https://www.softzone.es/app/uploads-softzone.es/2021/05/Programar-en-IDE.jpg");
+    background-size: cover;
+    background-position: center;
+    color:fff;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+
+.fondo2{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+
+body .fondo2 .tr{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    padding: 20 0px;
+    text-align: center;
+    margin: 0 2 0%;
+}
+.fondo-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px;
+    padding: 20 0px;
+    text-align: center;
+    margin: 0 2 0%;
+}
+
+body{
+    background: color white;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.img1{
+    border:  rgb(139, 183, 225) 10px solid;
+    border-radius: 50%;
+    height: 400px;
+    margin:0% 42%;
+}
+
+.img-carru{
+    width: 100%;
+    max-height: 400px; 
+    object-fit: contain; 
+    border-radius: 10px;
+}
+
+.div-mp{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    font-family: 'Raleway', sans-serif ;
+}
+.body1{
+    background-color: rgb(139, 183, 225);
+    margin: 0;
+}
+
+.contenedor{
+   
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 50vh;
+}
+
+.contenedor .imagen{
+    position: relative;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contenedor .imagen img{
+    width: 100px    ;
+    height: 100px;
+    transition: transform 0.92s ease-in-out;
+}
+
+
+.contenedor .imagen:hover .nombre{
+    display: inline-block;
+    transform: translateY(-60px); 
+    
+    
+}
+
+.contenedor .imagen:hover img{
+transform: translateY(-80px);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    display: flex;
+    background: linear-gradient(to top right, #304efca0,#092d89a3,#12044ca8);
+    padding: 2px 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 75px;
+    width: 75px;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+}
+
+nav a{
+    padding: 1px 3px;
+}
+nav a:hover{
+color: rgb(1, 1, 222);
+}
+.id{
+    text-align: center;
+}
+
+
+
+.foot{
+    width: 100%;
+    background-color: rgba(51, 145, 221, 0.155);
+    color: rgb(227, 239, 239);
+}
+
+.foot .pie{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+ 
+}
+
+.foot .pie h2{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(238, 238, 238);
+}
+
+.foot .pie p{
+    text-align: center;
+}
+.foot .logo{
+    justify-content: space-around;
+}
+
+.foot .redsocial{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px 5px 5px 5px;
+}
+.redsocial img{
+    height: 20px;
+    margin: 7px;
+    background: rgba(113, 147, 194, 0.085);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 33%;
+}
+.redsocial #facebook:hover{
+    background: #4267B2;
+}
+.redsocial #instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+}
+.redsocial #tiktok:hover{
+    background: linear-gradient(to top right, #ff0050,#00f2ea, #0000);
+}
+
+.foot h4{
+        text-align: center;
+        margin-top: 40px;
+        font-weight: 500;
+}
+
+
+.iconos-redes a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
